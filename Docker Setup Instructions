@@ -1,0 +1,21 @@
+Docker Images Used in ReStore It
+
+Backend Image
+● Java container: designed to run the backend project
+● Source: (GeeksforGeeks, 2025)
+
+Frontend Image #1 (Guest UI)
+● Image: Node + Angular CLI custom build
+● Guest UI container: designed to run the Guest UI of ReStore It
+● Source for both frontends: (The Coding Sloth, 2025)
+
+Frontend Image #2 (Business UI)
+● Image: Node + Angular CLI custom build
+● Business UI container: designed to run the Business UI of ReStore It
+
+Database Images (Official Docker Hub Images)
+● Image: mcr.microsoft.com/mssql/server:2022-latest
+● Used to run the Microsoft SQLdatabase
+
+● Image: mongo:latest
+● Used to run the MongoDB database
